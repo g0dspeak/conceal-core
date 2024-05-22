@@ -173,13 +173,13 @@ namespace cn
 	const size_t COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT = 1000;
     const size_t COMMAND_RPC_GET_OBJECTS_MAX_COUNT = 1000;
 
-	const int P2P_DEFAULT_PORT = 15000;
-	const int RPC_DEFAULT_PORT = 16000;
-    const int PAYMENT_GATE_DEFAULT_PORT = 8070;
+	const int P2P_DEFAULT_PORT = 20000;
+	const int RPC_DEFAULT_PORT = 21000;
+    const int PAYMENT_GATE_DEFAULT_PORT = 9070;
 
-	const int TESTNET_P2P_DEFAULT_PORT = 15500;
-	const int TESTNET_RPC_DEFAULT_PORT = 16600;
-    const int TESTNET_PAYMENT_GATE_DEFAULT_PORT = 8770;
+	const int TESTNET_P2P_DEFAULT_PORT = 20500;
+	const int TESTNET_RPC_DEFAULT_PORT = 25000;
+    const int TESTNET_PAYMENT_GATE_DEFAULT_PORT = 10770;
 
 	/* P2P Network Configuration Section - This defines our current P2P network version
 	and the minimum version for communication between nodes */
@@ -210,14 +210,14 @@ namespace cn
 
 	// Seed Nodes
 	const std::initializer_list<const char *> SEED_NODES = {
-		"185.58.227.32:15000", // UK
-		"185.35.64.209:15000",	 // France 
-		"94.177.245.107:15000"	 // Germany
+		//"185.58.227.32:15000", // UK
+		//"185.35.64.209:15000",	 // France 
+		//"94.177.245.107:15000"	 // Germany
 	};
 
 	const std::initializer_list<const char *> TESTNET_SEED_NODES = {
-		"161.97.145.65:15500",
-		"161.97.145.65:15501"
+		//"161.97.145.65:15500",
+		//"161.97.145.65:15501"
 	};
 
 	struct CheckpointData
@@ -234,7 +234,7 @@ namespace cn
 	// {<block height>, "<block hash>"},
 	const std::initializer_list<CheckpointData>
 		CHECKPOINTS = {
-			{0, "b9dc432e56e37b52771970ce014dd23fda517cfd4fc5a9b296f1954b7d4505de"},
+			/*{0, "b9dc432e56e37b52771970ce014dd23fda517cfd4fc5a9b296f1954b7d4505de"},
 			{10000, "55cf271a5c97785fb35fea7ed177cb75f47c18688bd86fc01ae66508878029d6"},
 			{20000, "52533de7f1596154c6954530ae8331fe4f92e92d476f097c6d7d20ebab1c2748"},
 			{30000, "50b5d84ac0b8abfe25669aac8514505c4c5f7ffd8e2bba0b52ab64f600d90796"},
@@ -383,11 +383,11 @@ namespace cn
 			{1460000, "6bd96b76bd2d3bc7ca320c089ffe21e64565432401cb94736d60d8f70cfb42f3"},
 			{1470000, "7e2d26dd0b258ff826d6ff1e36fe6606206fca535ba0ed40e944ddb165da9dc0"},
 			{1480000, "f4463eed0890245dca0ccf9fb3a9f101e110f1dc53ce1286ef47d56938faf007"},
-			{1490000, "bc76acf39ea16ce02588798b93034208881bab6c6dd9dfc545a6fab51dfce886"}
+			{1490000, "bc76acf39ea16ce02588798b93034208881bab6c6dd9dfc545a6fab51dfce886"}*/
 	};
 
 	const std::initializer_list<CheckpointData> TESTNET_CHECKPOINTS = {
-		{0, "850ac16022f4dddab624fad3f9049dba80592c8ea51a5dff19fefeb386e536b1"},
+		/*{0, "850ac16022f4dddab624fad3f9049dba80592c8ea51a5dff19fefeb386e536b1"},
 		{25000, "bdde29c10211c911947e1e0d602309e95fb915372f3317690c7860ef451a78e7"},
 		{50000, "ceb6c3e01ccd832779060a65a348ef38cab067bc951df11aa38332b8c2b7d299"},
 		{75000, "cf2e2c171107e05aa9932e7f66a3df5117e5c1a4b084bb9b0c9c79300ebb82ce"},
@@ -412,7 +412,7 @@ namespace cn
 		{550000, "29699db2cc98d5e9aee8c3abcc0d64604d121692aae50f8bb7e642083ba8f7fc"},
 		{575000, "f32d55598a3df5e83a28a1c0f67ecc836c7fc2d710be7656fddd3d07b0f3e88f"},
 		{600000, "b44f8e1a1bcc9841a174f76ff04832e7090851dfd0a2e7ac9ce68990c5b21ca3"},
-		{625000, "774e1129050fe4d09661ddf335f9b44922b1e44637bbfd30f44a89142e7bf8f9"}
+		{625000, "774e1129050fe4d09661ddf335f9b44922b1e44637bbfd30f44a89142e7bf8f9"}*/
 	};
 
 } // namespace cn

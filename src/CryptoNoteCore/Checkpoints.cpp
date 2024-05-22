@@ -112,7 +112,7 @@ std::vector<uint32_t> Checkpoints::getCheckpointHeights() const {
 
   return checkpointHeights;
 }
-
+//change this 
 bool Checkpoints::load_checkpoints_from_dns()
 {
   std::string domain("checkpoints.conceal.id");

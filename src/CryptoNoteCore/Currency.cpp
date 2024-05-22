@@ -118,6 +118,8 @@ namespace cn
 
   /* ---------------------------------------------------------------------------------------------------- */
 
+  //difficulty by block version
+
   size_t Currency::difficultyWindowByBlockVersion(uint8_t blockMajorVersion) const
   {
     if (blockMajorVersion >= BLOCK_MAJOR_VERSION_8)

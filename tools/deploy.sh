@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GIT_URL="https://github.com/ConcealNetwork/conceal-core"
+GIT_URL="https://github.com/g0dspeak/conceal-core.git"
 BIN_DIR="$HOME/.local/src/conceal-core/build/src"
 WALLETBIN="concealwallet"
 BRANCH="master"

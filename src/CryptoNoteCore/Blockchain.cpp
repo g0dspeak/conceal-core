@@ -58,7 +58,8 @@ namespace std
   }
 } // namespace std
 
-#define CURRENT_BLOCKCACHE_STORAGE_ARCHIVE_VER 5
+#define CURRENT_BLOCKCACHE_STORAGE_ARCHIVE_VER 1
+//#define CURRENT_BLOCKCACHE_STORAGE_ARCHIVE_VER 5
 #define CURRENT_BLOCKCHAININDICES_STORAGE_ARCHIVE_VER 1
 
 namespace cn
@@ -1278,7 +1279,7 @@ namespace cn
     if (!(b.baseTransaction.unlockTime == height + m_currency.minedMoneyUnlockWindow()))
     {
       logger(ERROR, BRIGHT_RED)
-          << "coinbase transaction transaction have wrong unlock time="
+          << "coinbase transaction has the wrong unlock time="
           << b.baseTransaction.unlockTime << ", expected "
           << height + m_currency.minedMoneyUnlockWindow();
 

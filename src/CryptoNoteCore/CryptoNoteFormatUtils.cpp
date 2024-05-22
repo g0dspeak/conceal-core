@@ -515,7 +515,7 @@ bool get_block_longhash(cn_context &context, const Block& b, Hash& res) {
   if (!get_block_hashing_blob(b, bd)) {
     return false;
   }
-
+//mining algorithm used by block version
   if (b.majorVersion >= 8) {
     cn_gpu_hash_v0(context, bd.data(), bd.size(), res);
   } else if (b.majorVersion >= 7) {
