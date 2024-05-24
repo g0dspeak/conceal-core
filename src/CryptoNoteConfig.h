@@ -216,7 +216,7 @@ namespace cn
 	};
 
 	const std::initializer_list<const char *> TESTNET_SEED_NODES = {
-		//"161.97.145.65:15500",
+		"172.0.0.1:20500",
 		//"161.97.145.65:15501"
 	};
 
